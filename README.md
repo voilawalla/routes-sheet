@@ -16,10 +16,10 @@ Do the [Sinatra sandbox challenge][sandbox challenge] first if you don't feel
 comfortable with the flow of a web application or how forms send data to the
 server.
 
-We'll have two core models: posts and tags.  A post can have many tags and a
-tag can be on many posts.
+We'll have two core models: `Post`s and `Tag`s.  A `Post` can have many `Tag`s
+and a `Tag` can be on many `Post`s.
 
-You can start with the handy sinatra skeleton in `./source`.
+You can start with the handy Sinatra skeleton in `./source`.
 
 ## Releases
 
