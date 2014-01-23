@@ -123,15 +123,15 @@ Make it something you're proud to look at.
 
 ## Resources
 
-* DBC Sandbox Challenge
-* DBC Proper Typesetting Challenge
+* [DBC Sandbox Challenge][sandbox challenge]
+* [DBC Proper Typesetting Challenge][proper formatting challenge]
 * [Active Record validations][AR validations]
 * [Active Record valid? and invalid?][valid_invalid]
 * [Active Record errors][errors]
 
 
 [sandbox challenge]: https://github.com/Devbootcamp/sinatra-sandbox-challenge
-[AR validations]: (http://guides.rubyonrails.org/active_record_validations_callbacks.html)
-[valid_invalid]: (http://guides.rubyonrails.org/active_record_validations_callbacks.html#valid-and-invalid)
-[errors]: http://guides.rubyonrails.org/active_record_validations_callbacks.html#validations_overview-errors
 [proper formatting challenge]: https://github.com/Devbootcamp/layout-drill-proper-typesetting-challenge
+[AR validations]: http://guides.rubyonrails.org/active_record_validations_callbacks.html
+[valid_invalid]: http://guides.rubyonrails.org/active_record_validations_callbacks.html#valid-and-invalid
+[errors]: http://guides.rubyonrails.org/active_record_validations_callbacks.html#validations_overview-errors
