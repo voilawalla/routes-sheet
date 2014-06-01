@@ -20,8 +20,6 @@ server.
 We'll have two core models: `Post`s and `Tag`s.  A `Post` can have many `Tag`s
 and a `Tag` can be on many `Post`s.
 
-You can start with the handy Sinatra skeleton in `./source`.
-
 ## Releases
 
 ### Release 0: Controllers &amp; Routes
@@ -36,16 +34,14 @@ The `index` controller will just have the index route, displaying your
 homepage.  All `Post`-related routes will go in the `posts` controller and all
 `Tag`-related routes will go in the `tags` controller.
 
-These are the operations we want to support for posts:
+These are features (roughly equivilent to the routes you'll need) your app should offer:
 
-1. Show me all posts
-2. Show me a particular post
+1. Show all posts
+2. Show a particular post (by id)
 3. Create a new post
 4. Edit an existing post
 5. Delete an existing post
-
-We want to support the operation for tags: "Show me all posts with a given
-tag."
+6. Show all posts with a given tag. (what will this URL look like? which controller will include this route?)
 
 Tags will be created via the `Post`-creation form.
 
