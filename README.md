@@ -97,7 +97,7 @@ able to list, show, create, update, and delete posts.  You should also be able
 to see all posts for a given tag at a url like
 
 ```text
-http://localhost:9393/tag/apple
+http://localhost:9393/tags/apple
 ```
 
 ### Release 3: Error Cases
@@ -127,8 +127,8 @@ Make it something you're proud to look at.
 * [Active Record errors][errors]
 
 
-[sandbox challenge]: https://github.com/Devbootcamp/sinatra-sandbox-challenge
-[proper formatting challenge]: https://github.com/Devbootcamp/layout-drill-proper-typesetting-challenge
-[AR validations]: http://guides.rubyonrails.org/active_record_validations_callbacks.html
-[valid_invalid]: http://guides.rubyonrails.org/active_record_validations_callbacks.html#valid-and-invalid
-[errors]: http://guides.rubyonrails.org/active_record_validations_callbacks.html#validations_overview-errors
+[sandbox challenge]: ../../../sinatra-sandbox-challenge
+[proper formatting challenge]: ../../../layout-drill-proper-typesetting-challenge
+[AR validations]: http://guides.rubyonrails.org/active_record_callbacks.html
+[valid_invalid]: http://guides.rubyonrails.org/active_record_validations.html#valid-questionmark-and-invalid-questionmark
+[errors]: http://guides.rubyonrails.org/active_record_validations.html#working-with-validation-errors
