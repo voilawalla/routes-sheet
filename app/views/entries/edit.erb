@@ -1,0 +1,22 @@
+<div class="container">
+  <h2> Edit page for <%= @entry.title %> </h2>
+
+  <% if @entry.errors %>
+  <% @entry.errors.full_messages.each do |message| %>
+    <p> <%= message %> </p>
+  <% end %>
+  <% end %>
+
+  <form method="post" action="/entries/<%= @entry.id %>">
+
+
+    <label for="title">Enter a new Title: </label>
+    <input id="title" name="title" value="<%= @entry.title %>"></input>
+
+    <label for="body">Enter a new body: </label>
+    <input id="body" name="body" value="<%= @entry.body %>"></input>
+
+    <input type="submit" value="Submit" />
+    <input type="hidden" name="_method" value="put"/>
+  </form>
+</div>

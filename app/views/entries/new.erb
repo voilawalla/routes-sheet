@@ -1,0 +1,20 @@
+<div class="container">
+
+<div class="errors">
+<% if @entry.errors %>
+  <% @entry.errors.full_messages.each do |message| %>
+    <p> <%= message %> </p>
+  <% end %>
+  <% end %>
+
+
+  <form method="post" action="/entries">
+    <label for="title">Enter a Title: </label>
+    <input id="title" name="title">
+
+    <label for="body">Enter a body: </label>
+    <input id="body" name="body" type="textarea">
+
+    <input type="submit" value="Submit" />
+  </form>
+</div>
